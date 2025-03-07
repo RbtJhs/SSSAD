@@ -1,0 +1,7 @@
+mmcv-full
+wandb
+prettytable
+scikit-image
+numpyencoder
+tensorflow_addons
+tensorflow
