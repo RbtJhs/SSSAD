@@ -51,7 +51,7 @@ bash tileImgs.sh
   python training_TreeAttention.py --data_dir "./data/MAD" --save_checkpoint_to "./checkpoints/TreeAttention.h5"
   ```
 - SoftTeacher
-  - Our model is initialized on the [SoftTeacher COCO weights](https://cloud.uni-hamburg.de/s/gWPKLkiyrAW77aS)
+  - Our model is initialized on the [SoftTeacher COCO weights](https://cloud.uni-hamburg.de/s/gWPKLkiyrAW77aS/download/COCO_softteacher.pth)
   ```
   bash tools/dist_train.sh \
   configs/soft_teacher/soft_teacher_faster_rcnn_r50_caffe_fpn_coco_full_720k.py \
@@ -65,7 +65,7 @@ bash tileImgs.sh
 - TreeAttention
   
   - Testing / Inference:
-     - Our TreeAttention checkpoint can be downloaded [here](https://cloud.uni-hamburg.de/s/DEzmW2ARN7RPmgT)
+     - Our TreeAttention checkpoint can be downloaded [here](https://cloud.uni-hamburg.de/s/DEzmW2ARN7RPmgT/download/MAD_TreeAttention.h5)
     
   ```
   python test_TreeAttention.py \
@@ -86,7 +86,7 @@ bash tileImgs.sh
 - SoftTeacher
   
   - Testing / Inference:
-     - Our SoftTeacher checkpoint can be downloaded [here](https://cloud.uni-hamburg.de/s/iSccQgS79CRPfKW)
+     - Our SoftTeacher checkpoint can be downloaded [here](https://cloud.uni-hamburg.de/s/iSccQgS79CRPfKW/download/MAD_softteacher.pth)
     
   ```
   python test_SoftTeacher.py \
