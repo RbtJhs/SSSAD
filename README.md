@@ -10,7 +10,7 @@
 - `mmcv=1.7.1`
 
 
-### Installation
+## Installation
 
 ```
 make install
@@ -26,7 +26,7 @@ make install
      -  `ln 109: score_th = 0.001`
 - This repo is based on [SoftTeacher](https://github.com/microsoft/SoftTeacher)
 
-### Data Preparation
+## Data Preparation
   - Download the [MAD](https://www2.informatik.uni-hamburg.de/cv/projects/MAD.zip) dataset
   ```
 mkdir data
@@ -44,7 +44,7 @@ bash gen_TreeAttentionGt.sh
 bash tileImgs.sh
   ```
 
-### Training
+## Training
 - TreeAttention
   
   ```
@@ -60,7 +60,7 @@ bash tileImgs.sh
   --lr=0.001
   ```
   
-### Testing and Evaluation
+## Testing and Evaluation
 
 - TreeAttention
   
@@ -107,7 +107,7 @@ bash tileImgs.sh
   python evalCOCO.py --dataset 'data/MAD/annotations/instances_test.json' --results 'results/results_softteacher.json'
   ```
 
-### Citation
+## Citation
 
   ```bib
   @inproceedings{JohansonEtAlWACV2024,
