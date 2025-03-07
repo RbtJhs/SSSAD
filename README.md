@@ -59,18 +59,22 @@ bash tileImgs.sh
   --load-from ./checkpoints/COCO_softteacher.pth \
   --lr=0.001
   ```
+  
 ### Testing and Evaluation
+
 - TreeAttention
-  - Testing / Inference
-  - Our TreeAttention checkpoint can be downloaded [here](https://cloud.uni-hamburg.de/s/DEzmW2ARN7RPmgT)
-  - 
+  
+  - Testing / Inference:
+     - Our TreeAttention checkpoint can be downloaded [here](https://cloud.uni-hamburg.de/s/DEzmW2ARN7RPmgT)
+    
   ```
   python test_TreeAttention.py \
   --load_imgs_from "./data/MAD/test" \
   --checkpoint "./checkpoints/MAD_TreeAttention.h5" \
   --result_dir "./results/TreeAttention/test/"
   ```
-  - Evaluation
+  
+  - Evaluation:
 
   ```
   python evalTreeAttention.py \
@@ -80,9 +84,10 @@ bash tileImgs.sh
   ```
   
 - SoftTeacher
-  - Testing / Inference
-  - Our SoftTeacher checkpoint can be downloaded [here](https://cloud.uni-hamburg.de/s/iSccQgS79CRPfKW)
-  - 
+  
+  - Testing / Inference:
+     - Our SoftTeacher checkpoint can be downloaded [here](https://cloud.uni-hamburg.de/s/iSccQgS79CRPfKW)
+    
   ```
   python test_SoftTeacher.py \
   --config "./configs/soft_teacher/soft_teacher_faster_rcnn_r50_caffe_fpn_coco_full_720k.py" \
@@ -95,13 +100,15 @@ bash tileImgs.sh
   --save_results_to "./results/results_softteacher.json" \
   --vis False 
   ```
-  - Evaluation
+  
+  - Evaluation:
 
   ```
   python evalCOCO.py --dataset 'data/MAD/annotations/instances_test.json' --results 'results/results_softteacher.json'
   ```
 
 ### Citation
+
   ```bib
   @inproceedings{JohansonEtAlWACV2024,
 title = {{S³AD}: Semi-supervised Small Apple Detection in Orchard Environments},
