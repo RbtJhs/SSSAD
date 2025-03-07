@@ -1,6 +1,6 @@
 # S³AD: Semi-supervised Small Apple Detection in Orchard Environments
 
-## Usage
+
 
 ### Requirements
 - `Debian 12.2.0-14`
