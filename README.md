@@ -32,7 +32,7 @@ make install
 mkdir data
 mv MAD.zip data/
 cd  data
-unzip -r MAD.zip
+unzip MAD.zip
 rm MAD.zip
   ```
   - Generate the GT for the TreeAttention module
