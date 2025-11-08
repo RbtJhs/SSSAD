@@ -65,7 +65,7 @@ bash tileImgs.sh
 - TreeAttention
   
   - Testing / Inference:
-     - Our TreeAttention checkpoint can be downloaded [here](https://drive.google.com/file/d/1UnUjaYNfQNusSyz5mR0jsuac38NJtkG8/view?usp=sharing)
+     - Our TreeAttention checkpoint can be downloaded [here](https://cloud.uni-hamburg.de/s/XBxtM7gG5NHHHYw?openfile=true) or [here](https://drive.google.com/file/d/1UnUjaYNfQNusSyz5mR0jsuac38NJtkG8/view?usp=sharing) in case the main link is broken
     
   ```
   python test_TreeAttention.py \
