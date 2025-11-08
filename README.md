@@ -86,7 +86,7 @@ bash tileImgs.sh
 - SoftTeacher
   
   - Testing / Inference:
-     - Our SoftTeacher checkpoint can be downloaded [here](https://drive.google.com/file/d/1fyZ04MpCfJ0YziQ2m8ZO6-uiZmlMGkSK/view?usp=sharing)
+     - Our SoftTeacher checkpoint can be downloaded [here](https://cloud.uni-hamburg.de/s/EC6acJC2WA7bSaJ?openfile=true) ( or [here](https://drive.google.com/file/d/1fyZ04MpCfJ0YziQ2m8ZO6-uiZmlMGkSK/view?usp=sharing) )
     
   ```
   python test_SoftTeacher.py \
